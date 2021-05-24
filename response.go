@@ -22,7 +22,7 @@ type PagingResponse struct {
 	// 总记录数
 	TotalCount int64 `json:"totalCount"`
 	// 分页实体数据
-	Data []interface{} `json:"data,omitempty"`
+	Data interface{} `json:"data,omitempty"`
 }
 
 // 计算总页数
